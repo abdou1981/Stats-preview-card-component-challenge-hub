@@ -1,2 +1,5 @@
-# Stats-preview-card-component-challenge-hub
-frontend mentor challenges, Stats preview card component challenge hub.
+# Frontend Mentor - Stats preview card component
+
+![Design preview for the Stats preview card component coding challenge](./design/Capture d’écran.png)
+
+## Welcome! 👋
