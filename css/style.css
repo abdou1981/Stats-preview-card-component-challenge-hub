@@ -42,7 +42,7 @@ body {
   }
 }
 .card > div:nth-child(2) {
-  padding: 55px 55px 55px 35px;
+  padding: 55px 45px 55px 35px;
 }
 .card > div:nth-child(2) h1 {
   color: hsl(0, 0%, 100%);
