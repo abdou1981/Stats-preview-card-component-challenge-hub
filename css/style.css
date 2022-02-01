@@ -5,45 +5,29 @@
 }
 body {
   font-family: 'Inter', sans-serif;
-}
-.main {
-  width: 1440px;
   background-color: hsl(233, 47%, 7%);
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
-@media (max-width: 375px) {
-  .main {
-    width: 375px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
 }
 .card {
   background-color: hsl(244, 38%, 16%);
-  width: 1000px;
+  width: 900px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   display: flex;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
   overflow: hidden;
+  margin: 120px auto;
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .card {
     width: 300px;
     flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
-@media (min-width: 376px) {
+@media (min-width: 426px) {
   .image-mob {
     display: none;
   }
@@ -52,20 +36,20 @@ body {
   width: 50%;
   position: relative;
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .card > div {
     width: 100%;
   }
 }
 .card > div:nth-child(2) {
-  padding: 55px 70px 55px 55px;
+  padding: 55px 55px 55px 35px;
 }
 .card > div:nth-child(2) h1 {
   color: hsl(0, 0%, 100%);
   font-size: 35px;
   margin-bottom: 25px;
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .card > div:nth-child(2) {
     padding: 25px 36px 0;
   }
@@ -84,7 +68,7 @@ body {
   font-size: 15px;
   padding-bottom: 50px;
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .card > div:nth-child(2) h1 + p {
     text-align: center;
     padding-bottom: 30px;
@@ -98,7 +82,7 @@ body {
   font-weight: 700;
   width: 30%;
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .card > div > div {
     flex-wrap: wrap;
   }
@@ -126,7 +110,7 @@ body {
   width: 100%;
   height: 100%;
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .image-disk {
     display: none;
   }
